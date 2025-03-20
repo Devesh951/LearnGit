@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello1') {
+        stage('Hello') {
             steps {
                 echo 'Hello Devesh You're working in MNC Company'
             }
