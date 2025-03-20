@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello1') {
             steps {
-                echo 'Hello Devesh'
+                echo 'Hello Devesh You're working in MNC Company'
             }
         }
     }
