@@ -1,8 +1,8 @@
-name: my first workflow manually
-on: workflow_dispatch
+name: My First Workflow Manually
+on: workflow_dispatch:
 jobs:
   job1:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Execute the command
-    run: echo "Hello Devesh"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Execute the command
+        run: echo "Hello Devesh"
